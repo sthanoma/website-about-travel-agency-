@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>2k82 11'I' Travels | Explore Nepal</title>
+<title> Travel Nepal  | Explore Nepal</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-<!-- font ko lagi -->
+
 <style>
 :root{
 --primary:#003366;
@@ -33,7 +33,9 @@ height:70px;
 .logo{font-size:1.5rem;font-weight:700;color:var(--primary);}
 .logo span{color:var(--secondary);}
 nav ul{display:flex;gap:20px;list-style:none;}
-<!-- for navigation bar -->
+html{
+  scroll-behavior:smooth;
+}
 #home{
 height:100vh;
 background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
@@ -47,7 +49,7 @@ display:inline-block;padding:10px 25px;
 background:var(--secondary);color:white;border-radius:30px;
 font-weight:600;
 }
-<!-- packages ko lagi -->
+
 #packages{background:var(--light);}
 .grid{
 display:grid;
@@ -95,7 +97,7 @@ background:var(--primary);margin: top:10px;
 <header>
 <div class="container">
 <nav>
-<div class="logo">2k82 11'I' <span>Travels</span></div>
+<div class="logo"> Travel   <span>Nepal</span></div>
 <ul>
 <li><a href="#home">Home</a></li>
 <li><a href="#packages">Packages</a></li>
@@ -178,7 +180,7 @@ background:var(--primary);margin: top:10px;
 
 <div class="contact-info">
   <h4>  Contact Us if you have any questions or need assistance.</h4>
-<p>Email: class11iscience@gmail.com</p>
+<p>Email:travelnepal@gmail.com</p>
 <p>Phone: +977 9800000000</p>
 
 </div> 
