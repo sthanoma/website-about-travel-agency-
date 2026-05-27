@@ -1,202 +1,93 @@
+# Travel Nepal — Tourism Website
 
-<html>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title> Travel Nepal  | Explore Nepal</title>
+A modern and responsive travel agency website built using HTML, CSS, and JavaScript.  
+This project promotes tourism in Nepal by showcasing popular travel destinations and allowing users to book travel packages online.
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+---
 
-<style>
-:root{
---primary:#003366;
---secondary:#ff7a00;
---white:#fff;
---light:#f4f6f8;
---shadow:0 5px 20px rgba(0,0,0,0.1);
-}
+## 🌍 Project Overview
 
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
-body{color:#333;}
-a{text-decoration:none;color:inherit;}
-.container{width:90%;max-width:1100px;margin:auto;}
-section{padding:90px 0;}
+Travel Nepal is a simple tourism website designed for travelers who want to explore Nepal’s beautiful destinations such as Pokhara, Everest Base Camp, and Chitwan National Park.
 
-header{
-position:fixed;width:100%;background:var(--white);
-box-shadow:var(--shadow);z-index:1000;
-}
-nav{
-display:flex;justify-content:space-between;align-items:center;
-height:70px;
-}
-.logo{font-size:1.5rem;font-weight:700;color:var(--primary);}
-.logo span{color:var(--secondary);}
-nav ul{display:flex;gap:20px;list-style:none;}
-html{
-  scroll-behavior:smooth;
-}
-#home{
-height:100vh;
-background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
-url('https://images.unsplash.com/photo-1509644851169-2acc08aa25b5?auto=format&fit=crop&w=1350&q=80');
-background-size:cover;background-position:center;
-color:white;display:flex;align-items:center;text-align:center;
-}
-#home h1{font-size:3rem;margin-bottom:15px;}
-.btn{
-display:inline-block;padding:10px 25px;
-background:var(--secondary);color:white;border-radius:30px;
-font-weight:600;
-}
+The website includes:
+- Attractive landing page
+- Travel package cards
+- Booking form
+- Contact section
+- Responsive layout
 
-#packages{background:var(--light);}
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:20px;
-}
-.card{
-background:white;border-radius:12px;
-box-shadow:var(--shadow);overflow:hidden;
-}
-.card img{height:200px;width:100%;object-fit:cover;}
-.card-content{padding:20px;}
-.card h3{color:var(--primary);}
-.price{font-weight:700;margin:10px 0;}
+---
 
-form{
-background:white;padding:30px;
-max-width:500px;margin:auto;
-border-radius:12px;box-shadow:var(--shadow);
-}
-form input,form select,form textarea{
-width:100%;padding:10px;margin:8px 0;
-border:1px solid #ccc;border-radius:6px;
-}
-.submit-btn{
-width:100%;padding:12px;
-background:var(--secondary);
-border:none;color:white;font-weight:600;
-border-radius:6px;cursor:pointer;
-}
+## 🚀 Features
 
-.contact-info{
-text-align:center;margin-top:30px;font-weight:500;
-}
+- Fully responsive design
+- Smooth scrolling navigation
+- Hero section with background image
+- Travel package showcase
+- Booking form with JavaScript alert
+- Modern card layout
+- Clean UI with CSS styling
+- Mobile-friendly structure
 
-footer{text-align:center;padding:10px 0;
-background:var(--primary);margin: top:10px;
-}
+---
 
-</style>
-</head>
+## 🛠 Technologies Used
 
-<body>
+- HTML5
+- CSS3
+- JavaScript
+- Google Fonts (Poppins)
 
-<header>
-<div class="container">
-<nav>
-<div class="logo"> Travel   <span>Nepal</span></div>
-<ul>
-<li><a href="#home">Home</a></li>
-<li><a href="#packages">Packages</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</nav>
-</div>
-</header>
+---
 
-<section id="home">
-<div class="container">
-<h1>Discover the Beauty of Nepal</h1>
-<p>Your trusted partner for unforgettable travel experiences.</p>
-<a href="#packages" class="btn">View Packages</a>
-</div>
-</section>
+## 📂 Website Sections
 
-<section id="packages">
-<div class="container">
-<h2 style="text-align:center;color:var(--primary);margin-bottom:40px;">Popular Packages</h2>
+### 🏠 Home
+- Eye-catching hero section
+- Introduction to Travel Nepal
+- Call-to-action button
 
-<div class="grid">
+### 📦 Packages
+Travel destinations included:
+- Pokhara Getaway
+- Everest Base Camp
+- Chitwan Safari
 
+Each package includes:
+- Destination image
+- Description
+- Price
+- Booking button
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1610997686651-98492fd08108?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pokhara" >
-<div class="card-content">
-<h3>Pokhara Getaway</h3>
-<p>Explore Phewa Lake, Peace Pagoda & lakeside scenery.</p>
-<div class="price">NPR 10k / Person</div>
-<a href="#contact" class="btn">Book Now</a>
-</div>
-</div>
+### 📞 Contact / Booking
+Booking form fields:
+- Full Name
+- Email Address
+- Package Selection
+- Message
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80" alt="Everest">
-<div class="card-content">
-<h3>Everest Base Camp</h3>
-<p>Adventure trek to the Himalayas and Everest Base Camp.</p>
-<div class="price">NPR 15k / Person</div>
-<a href="#contact" class="btn">Book Now</a>
-</div>
-</div>
+Includes:
+- Email contact
+- Phone number
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=80" alt="Chitwan">
-<div class="card-content">
-<h3>Chitwan Safari</h3>
-<p>Experience wildlife safari in Chitwan National Park.</p>
-<div class="price">NPR 10k / Person</div>
-<a href="#contact" class="btn">Book Now</a>
-</div>
-</div>
+---
 
-</div>
-</div>
-</section>
+## ✨ UI Features
 
-<section id="contact">
-<div class="container">
-<h2 style="text-align:center;color:var(--primary);margin-bottom:30px;">Book Your Adventure</h2>
+- Fixed navigation bar
+- Modern color palette
+- Responsive grid system
+- Card hover-friendly layout
+- Shadow effects
+- Rounded corners
+- Smooth scrolling behavior
 
-<form id="bookingForm">
-<input type="text" placeholder="Full Name" required>
-<input type="email" placeholder="Email Address" required>
-<select required>
-<option value="">Select Package</option>
-<option>Pokhara Getaway</option>
-<option>Everest Base Camp</option>
-<option>Chitwan Safari</option>
-</select>
-<textarea rows="4" placeholder="Message"></textarea>
-<button type="submit" class="submit-btn">Confirm Booking</button>
-</form>
-<footer>
+---
 
-<style >
-  .contact-info { color: white; }  
-</style>
+## 📁 Project Structure
 
-<div class="contact-info">
-  <h4>  Contact Us if you have any questions or need assistance.</h4>
-<p>Email:travelnepal@gmail.com</p>
-<p>Phone: +977 9800000000</p>
-
-</div> 
-</footer>
-
-</div>
-</section>
-
-<script>
-  document.getElementById("bookingForm").addEventListener("submit", function(e){
-    e.preventDefault();
-    alert("Booking Submitted Successfully!");
-    this.reset();
-  });
-</script>
-
-</body>
-</html>
-</html>
+```bash id="n2m8x1"
+travel-nepal/
+│
+├── index.html
+└── README.md
